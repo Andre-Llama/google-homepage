@@ -1,0 +1,23 @@
+#top-bar {
+  position: relative;
+}
+#bottom-bar {
+  position: relative;
+}
+
+.left-of-bar {
+  float: left;
+}
+
+.right-of-bar {
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
