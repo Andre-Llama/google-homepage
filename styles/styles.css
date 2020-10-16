@@ -1,15 +1,20 @@
-#top-bar {
+body {
+  font-family: arial;
+}
+
+.top-bar {
   position: fixed;
   top: 10px;
   overflow: hidden;
   width: 99%;
 }
 
-#bottom-bar {
+.bottom-bar {
   position: fixed;
   bottom: 10px;
   overflow: hidden;
   width: 99%;
+  background-color: #F2F2F2;
 }
 
 .left-of-bar {
@@ -20,13 +25,13 @@
   float: right;
 }
 
-a {
-  color: black;
+.top-bar a, .bottom-bar a {
+  color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
   margin: 0 5px;
 }
 
-a:hover {
+.top-bar a:hover, .bottom-bar a:hover {
   text-decoration: underline;
 }
 
@@ -40,16 +45,67 @@ a:hover {
 
 #logo img{
   display: block;
-  width: 400px;
+  width: 300px;
   margin: auto;
 }
 
 form {
-  margin: auto;
+  text-align: center;
+}
+
+form input {
+  margin: 20px 15px;
+}
+
+form input[type="submit"] {
+  border: none;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  padding: 10px 16px;
+  font-size: 15px;
+}
+
+form input[type="submit"]:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5F6368;
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  font-size: 15px;
+}
+
+#search-bar {
+  width: 550px;
+  height: 45px;
 }
 
 #location {
   position: fixed;
   bottom: 40px;
   left:15px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+  border-color: #e4e4e4;
+}
+
+#language {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#language a {
+  text-decoration: none;
+  color: rgb(26, 13, 171);
+}
+
+#sign-in {
+  border: none;
+  background-color: #4285f4;
+  color: white;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
 }
