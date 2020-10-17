@@ -12,7 +12,8 @@ body {
 .bottom-bar {
   position: fixed;
   bottom: 1%;
-  padding: 0.7% 0;
+  left: 0;
+  padding: 0.7% 1% 0.7% 0.2%;
   overflow: hidden;
   width: 100%;
   background-color: #F2F2F2;
@@ -86,7 +87,8 @@ form input[type="submit"]:hover {
 #location {
   position: fixed;
   bottom: 5%;
-  left:0.5%;
+  left: 0;
+  padding-left: 0.2%;
   width: 100%;
   background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.54);
